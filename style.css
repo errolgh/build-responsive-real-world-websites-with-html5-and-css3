@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Here is an example of CSS Inheritance. Every element that appears in the body will have these style attributes unless overwritten (see h1 and h2 tags). */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+} 
+
+h1, h2 {
+    color: rgb(06, 163, 11);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+/* using class vs. id... */
+.main-text {
+    text-align: justify;
+}
+
+#author-text {
+    font-size: 22px;
+}
